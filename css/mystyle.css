@@ -1,0 +1,120 @@
+body {
+    background-color: #FDFDFD;
+}
+
+h1
+{
+	font: 115px/1.0em "amaticbold", sans-serif;
+	color:#FF7373;
+	text-align: center;
+}
+h2{
+	font: 25px "segoe ui", sans-serif;
+	letter-spacing: .15em;
+	font-weight: bold;
+}
+.home
+{
+	width: 100%;
+	color: #444;
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover; /* Safari and Chrome */
+	-moz-background-size: cover; /* Firefox */
+	-o-background-size: cover; /* Internet Explorer */
+	background-size: cover; /* CSS3 */
+}
+
+
+
+/* -----MAIN MENU------*/
+div.main_menu
+{
+	width: 100%;
+	height: 70px;
+	background-color: #00B0E0;
+	z-index: 999; 
+}
+
+div.main_menu nav
+{
+	height: 70px;
+}
+div.main_menu nav ul
+{
+	height: 100%;
+}
+div.main_menu nav ul li
+{
+	display: inline-block;
+	height: 100%;
+	font: 17px/4.57em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 0.25em;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+div.main_menu nav ul li.first a
+{
+	padding-left: 0px;
+}
+div.main_menu nav ul li.last a
+{
+	padding-right: 0px;
+}
+div.main_menu nav a
+{
+	display: block;
+	padding-left: 18px;
+	padding-right: 18px;
+	text-decoration: none;
+	color: white; 
+}
+div.main_menu nav ul li a:hover
+{
+	color: #FF7373;
+}
+div.main_menu nav ul li.active a
+{
+	color: #fffeb3;
+}
+/*---Background Dark--*/
+.containerdark{
+  background: url(../images/greywood.jpg) ;
+  border-bottom: #dddddd solid 1px;
+  padding: .5em;
+}
+.containerlight{
+  background-color: #AFEEEE;
+  border-bottom: #dddddd solid 1px;
+  padding: .01em 1em 1em;
+}
+/* BACKSTORY ------*/
+.backstory
+{
+	width: 80%;
+	min-width:709;
+	min-height: 375px;
+	background-position: center; 
+	-webkit-background-size: contain; /* Safari and Chrome */
+	-moz-background-size: contain; /* Firefox */
+	-ms-background-size: contain; /* Internet Explorer */
+	-o-background-size: contain; /* Opera */
+	background-size: contain; /* CSS3 */ 
+}
+/* ----CHECKLIST----*/
+ul.check_list
+{
+	margin-left: 30px;
+}
+.check_list
+{
+	font: 18px/1.94em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: -0.02em;
+}
+.check_list li
+{
+	padding-left: 40px;
+	background: transparent url("../images/Heart_Checkbox_25px.png") scroll 0 8px no-repeat;
+}
