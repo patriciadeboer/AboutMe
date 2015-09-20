@@ -21,7 +21,7 @@ h2{
 	background-position: center;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover; /* Safari and Chrome */
-	-moz-background-size: cover; /* Firefox */
+	-moz-background-sigit sze: cover; /* Firefox */
 	-o-background-size: cover; /* Internet Explorer */
 	background-size: cover; /* CSS3 */
 }
@@ -30,53 +30,60 @@ h2{
 
 /* -----MAIN MENU------*/
 
+nav{
+   background-color:#00B0E0;
+}
+
 nav ul{
 	list-style: none;
 	text-align: center;
 	padding:0;
 	margin:0;
-  background-color:#00B0E0;
   height: 50px;
+  background-color:#00B0E0;
 }
 
 nav li{
-	display: inline-block;
-	font: 1.3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*	display: inline-block;*/
+	font: 1.1em "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 50px;
 	text-transform: uppercase;
+    border-bottom: 1px solid white;
 }
 
-
-
-
-nav ul li a
+nav a
 {
 	display: block;
-	padding-left: 12px;
-	padding-right: 12px;
 	text-decoration: none;
 	color: white; 
-
+  transition: .3s background-color;
 }
-
-
-nav ul li.first a
-{
-	padding-left: 0px;
-}
-nav ul li.last a
-{
-	padding-right: 0px;
-}
-
 
 nav ul li a:hover
 {
+  background-color: #fffeb3;
 	color: #FF7373;
 }
+
 nav ul li.active a
 {
-	color: #fffeb3;
+  background-color:white;
+  color: #FF7373;
+}
+
+@media screen and (min-width: 725px) {
+  nav li {
+    width: 145px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size:1.1em;
+  }
+    nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
 }
 /*---Background Dark--*/
 /*.containerdark{
